@@ -1,6 +1,7 @@
 import React from 'react'
 import {headerLogo} from "../assets/images";
 import { navLinks } from '../constants';
+import { hamburger } from '../assets/icons';
 function Nav() {
   return (
     <header className='padding-x py-8 absolute z-10 w-full'>
@@ -15,6 +16,9 @@ function Nav() {
             </li>
           ))}
         </ul>
+        <div>
+          <img src={hamburger} alt="hamburger" width={25} height={25} className='hidden max-lg:block' />
+        </div>
       </nav>
     </header>
   )
