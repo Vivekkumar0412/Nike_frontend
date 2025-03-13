@@ -16,16 +16,28 @@ function SuperQuality() {
           <span className="text-coral-red">Quality</span> Shoes
         </h2>
         <p className="mt-4 lg:max-w-lg info-text">
-          Discover stylish nike arrival, quality, comfort and innovation for
-          comfortable life.
+          Stay updated on special offers by subscribing to newsletters,
+          following brands on social media, or checking their websites
+          regularly. Don’t miss out—act fast before the deal expires! 🚀
         </p>
-        <p className="mt-6 lg:max-w-lg info-text">hello hiii</p>
-        <div className="mt-11">
+        <p className="mt-6 lg:max-w-lg info-text">
+          Supreme quality represents the highest standard of craftsmanship,
+          durability, and performance. Whether it's a product, service, or
+          experience, superior quality ensures reliability, longevity, and
+          customer satisfaction.
+        </p>
+        <div className="mt-11 flex flex-wrap gap-4">
           <Button label="View Details" />
         </div>
       </div>
       <div className="flex-1 flex justify-center items-center ">
-        <img src={shoe8} alt="shoe8" width={570} height={522} className="object-contain" />
+        <img
+          src={shoe8}
+          alt="shoe8"
+          width={570}
+          height={522}
+          className="object-contain"
+        />
       </div>
     </section>
   );
