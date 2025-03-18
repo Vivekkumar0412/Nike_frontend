@@ -37,6 +37,9 @@ function App() {
       <section className="padding-x sm:py-32 py-16 w-full">
         <Suscribe />
       </section>
+      <section className="padding-x sm:py-32 py-16 w-full">
+        <Suscribe />
+      </section>
       <section className="bg-black padding-x padding-t pb-8">
         <Footer />
       </section>
